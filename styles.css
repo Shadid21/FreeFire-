@@ -1,0 +1,195 @@
+/* navbar */
+.navbar {
+  padding:0px 40px;
+}
+/* first section */
+.first-div {
+  background-color: #feffde;
+  padding: 100px 50px;
+
+
+}
+
+.first-title {
+
+  text-align: left;
+  color: red;
+}
+
+.title-text {
+  font-size: 3rem;
+  font-family: 'Kiwi Maru', serif;
+  font-weight: bolder;
+}
+
+.btn {
+  margin: 20px 40px 20px 0px;
+}
+
+.second-title {
+
+text-align: center;
+
+}
+
+.freefire-pic {
+  width: 370px;
+}
+
+/* second section */
+.feture-section {
+  background-color: #dbf6e9;
+  padding: 100px 50px;
+  font-family: 'Kiwi Maru', serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.fas {
+  padding-bottom: 20px;
+}
+
+.fas:hover {
+  color: #f05945;
+}
+
+.feture-h2 {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.feture-p {
+  color: #e4d3cf;
+}
+
+.carosel-div {
+  height: 640px;
+}
+
+.calculator {
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.calculator-form {
+  padding-top: 60px;
+}
+
+.calculator-h1 {
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+    color: red;
+}
+.calculate-result {
+  font-family: 'Kiwi Maru', serif;
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 15rem;
+  padding: 0 50px;
+}
+.footer {
+  text-align: center;
+}
+.fab {
+  padding:0 3rem 5rem 0;
+}
+.fab:hover {
+  color: #56776c;
+}
+
+.last-p {
+  padding-bottom: 3rem;
+  color: #e4d3cf;
+}
+/* now start media query */
+
+@media (max-width: 768px) {
+
+  /* first section */
+  .first-div {
+    background-color: #feffde;
+    padding: 50px 50px;
+
+
+  }
+
+  .first-title {
+    width: 100%;
+    text-align: center;
+    color: red;
+  }
+
+  .title-text {
+    font-size: 3rem;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bolder;
+  }
+
+  .btn {
+    margin: 20px 40px 20px 0px;
+  }
+
+  .second-title {
+  width: 100%;
+  text-align: center;
+
+  }
+
+  .freefire-pic {
+    width: 370px;
+  }
+
+  /* second section */
+  .feture-section {
+    background-color: #dbf6e9;
+    padding: 100px 50px;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .fas {
+    padding-bottom: 20px;
+  }
+
+  .fas:hover {
+    color: #f05945;
+  }
+
+  .feture-h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .feture-p {
+    color: #e4d3cf;
+  }
+
+  .carosel-div {
+    height: auto;
+  }
+
+  .calculator {
+    padding-bottom: 10rem;
+    text-align: center;
+  }
+
+  .calculator-h1 {
+      font-family: 'Kiwi Maru', serif;
+      font-weight: bold;
+      color: red;
+  }
+  .calculate-result {
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+    color: red;
+    font-size: 2rem;
+  }
+
+  .calculator-pic {
+    width: 250px;
+  }
+
+}
